@@ -8,7 +8,7 @@ h1{
 .sorange{
     color: orange;
 }
-section{
+.first{
     display: flex;
     margin-bottom: 100px;
 }
@@ -36,3 +36,41 @@ background-repeat: no-repeat;background-position: right;
 
 
 }
+.last-one{
+    
+        display: flex;
+        margin-bottom: 100px;
+        margin-left: 20px;
+        
+    
+    }
+    .last-one div{
+        width: 40%;
+        margin-left: 5%;
+    
+        box-shadow: 10px 10px 20px grey;
+        padding-left: 20px;
+padding-right: 20px;
+
+    }
+    .exp-area{
+        background-image: url(edited_for_ppf/exp-bg.png);
+        background-repeat: no-repeat;background-position: left;
+
+
+    }
+
+    .lcc{border-left: 7px solid;
+        border-image: linear-gradient(blue,aqua);
+   border-image-slice:1;
+   
+    }
+    .lwd{border-left: 7px solid;
+        border-image: linear-gradient(tomato,orange);
+   border-image-slice:1;
+   
+    }
+    footer p{
+        text-align: center;
+    }
+
